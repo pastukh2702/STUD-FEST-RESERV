@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "NormsMedium";
+    src: url("NormsMedium.ttf")
+           /* url("/fonts/OpenSans-Regular-webfont.woff") format("woff"); */
+   }
+
+html{
+    font-family: 'NormsMedium';
+
+}

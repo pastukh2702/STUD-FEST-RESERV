@@ -1,0 +1,57 @@
+.wrapper{
+    display: block;
+}
+
+.map-image-5-1{
+    background: url(bron_Kharkiv1.png) no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 767px;
+    position: relative;
+}
+.map-image-5-2{
+    background-image: url(bron_Kharkiv2.png);
+    background-size: cover;
+    width: 695px;
+    height: 767px;
+    position: relative;
+}
+
+
+.block{
+    position: absolute;
+    background: #3ebf65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    color: black;
+    font-size: 20px;
+
+    transition: .3s;
+}
+
+.block:hover{
+    background:  #4ff580 !important;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.blockT{
+    position: absolute;
+    background: #3ebf65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    color: black;
+    font-size: 20px;
+
+    transition: .3s;
+}
+
+.blockT:hover{
+    background:  #4ff580 !important;
+    cursor: pointer;
+    transition: .3s;
+}

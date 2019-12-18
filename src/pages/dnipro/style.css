@@ -1,0 +1,51 @@
+.wrapper{
+    display: block;
+}
+
+.map-image-4{
+    background-image: url(bron_dnipro.png);
+    background-size: cover;
+    width: 660px;
+    height: 767px;
+    position: relative;
+}
+
+
+
+.block{
+    position: absolute;
+    background: #3ebf65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    color: black;
+    font-size: 20px;
+
+    transition: .3s;
+}
+
+.block:hover{
+    background:  #4ff580 !important;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.blockT{
+    position: absolute;
+    background: #3ebf65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    color: black;
+    font-size: 20px;
+
+    transition: .3s;
+}
+
+.blockT:hover{
+    background:  #4ff580 !important;
+    cursor: pointer;
+    transition: .3s;
+}

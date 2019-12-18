@@ -1,0 +1,117 @@
+.wrapper{
+    display: block;
+    margin-bottom: 100px;
+}
+
+.map-image-1{
+    background-image: url(bron_Kyiv1-1.png);
+    background-size: cover;
+    width: 520px;
+    height: 767px;
+    position: relative;
+}
+.map-image-1-2{
+    background-image: url(bron_Kyiv1-2.png);
+    background-size: cover;
+    width: 520px;
+    height: 767px;
+    position: relative;
+}
+.map-image-1-3{
+    background-image: url(bron_Kyiv1-3.png);
+    background-size: cover;
+    width: 520px;
+    height: 767px;
+    position: relative;
+}
+
+.block{
+    position: absolute;
+    background: #3ebf65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    color: black;
+    font-size: 20px;
+
+    transition: .3s;
+}
+
+.s_stend{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+}
+
+.block:hover{
+    background:  #4ff580 !important;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.blockT{
+    position: absolute;
+    background: #3ebf65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    color: black;
+    font-size: 20px;
+
+    transition: .3s;
+}
+
+.blockT:hover{
+    background:  #4ff580 !important;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.times-wrapper{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.times{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.timeItem{
+    text-align: left;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s;
+    padding: 5px;
+    margin: 0;
+}
+.timeWrap{
+    width: 50%;
+    word-break: break-all;
+    margin: auto;
+    margin-top: 30px;
+}
+@media  (max-width: 400px) {
+    .timeWrap{
+        width: 95%;
+        word-break: break-all;
+    }
+  }
+.timeItem:hover{
+    background: #4ff580 !important;
+    transition: .3s;
+    cursor: pointer;
+}
+
+select{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
